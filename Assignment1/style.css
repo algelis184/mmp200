@@ -6,6 +6,9 @@ nav li{
 
 nav ul{
 	text-align: center;
+	padding: 15px;
+	margin-bottom: 15px;
+	margin-top: 0px;
 }	
 
 h1 {
@@ -22,5 +25,17 @@ h1 {
 	}
 }
 
-header { 
-	background-color: 3260d5; }
+h1 { 
+	background-color: #F2AB64;
+	padding: 15px;
+	margin: 0px;}
+
+ul {
+    background-color: #F2AB64;
+    color: white;
+}	
+
+* {
+	background-color: #F2AB64;
+}
+
