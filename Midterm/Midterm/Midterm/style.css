@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+		background-color: #b4aaaa;
+}
+
+a { 
+	text-decoration: none;
+	color: white;
+	}
+
+
+/* ********* NAVIGATION ********** */
+
+nav ul{
+	display: none;
+	background: teal;
+	border: solid black;
+}
+
+#Lineup {background-image: url(travis.jpg); background-size: cover;}
+
+#Food {background-image: url(http://www.redorbit.com/media/uploads/2012/12/junkfood.jpg); background-size: cover;}
+
+#Tickets {background-image: url(http://www.film-festival.org/Ticketimage1.jpg); background-size: cover;}
+
+#Hotels {background-image: url(http://www.discounts-hotel.com/wp-content/uploads/2017/05/b6a39f_19b19c2f12d148aabd32cae1597a470f.jpg); background-size: cover;}
+
+/* ********** LAYOUT *********** */
+
+#large-photo{
+	height: 16em;
+	border: solid 1px gray;
+}
+
+#aboutimg {
+		height: 16em;
+		width: 100%;
+}
+
+.col{
+	height: 16em;
+	border: solid 1px gray;
+}
+
+#toggle-menu{
+	float: right;
+}
+/* *******HEADER*******m*/
+
+
+
+header {
+	text-align: center;
+	clear: both; /* prevents any element from floating to the right or left of the header */
+	background-image: url("midtermbg.png");
+}
+
+header img {
+	max-width: 80%;
+}
+/* *********LAYOUT********* */
+
+
+#large-photo{
+	height: 16em;
+	border: solid 1px gray;
+	background-image: url("image.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.col{
+	height: 16em;
+	border: solid 1px;
+}
+
+/* **********FOOTER************ */
+footer{
+	text-align: center;
+}
+
+@media (min-width: 640px){
+
+	#toggle-menu{
+		display: none;
+	}
+
+	nav {
+		text-align: center;
+		font-family: 'athleticregular';
+
+	}
+
+	nav ul{
+		display: block;
+	}
+
+	nav li{
+		display: inline-block;
+		margin: 0.5em 1em;
+	}
+
+	#Tab li {
+			display: inline-block;
+			margin: 0.5em 7em;
+	}
+
+	.row{
+		display: flex;   /* makes divs side by side */
+		flex-direction: row;
+		background-color: transparent;
+
+	}
+
+	.col{
+		width: 25%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	/********** Bottom **********/
+
+	#Contact {
+			text-align: center;
+
+	}
+
+	#about {
+			border-color: grey;
+			border-style: solid;
+			margin-right: 5%;
+			margin-left: 5%;
+	}
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    color: blue;
+    text-decoration: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
