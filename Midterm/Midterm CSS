@@ -7,9 +7,9 @@ body {
 		background-color: #b4aaaa;
 }
 
-a { color: blue;
-	background-color: none; 
+a { color: teal;
 	}
+
 
 /* ********* NAVIGATION ********** */
 
@@ -146,37 +146,3 @@ footer{
     background-color: #ddd;
     color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
