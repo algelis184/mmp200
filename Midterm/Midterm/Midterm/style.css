@@ -4,7 +4,7 @@
 	font-family: sans-serif;
 }
 body {
-		background-color: #b4aaaa;
+		background-color: white;
 }
 
 a { 
@@ -12,13 +12,17 @@ a {
 	color: white;
 	}
 
+#white { color: black ;
+	stroke: 5px; }
+
 
 /* ********* NAVIGATION ********** */
 
 nav ul{
 	display: none;
 	background: teal;
-	border: solid black;
+	border-bottom: solid black;
+	border-top: solid black;
 }
 
 #Lineup {background-image: url(travis.jpg); background-size: cover;}
@@ -132,10 +136,10 @@ footer{
 	}
 
 	#about {
-			border-color: grey;
-			border-style: solid;
 			margin-right: 5%;
 			margin-left: 5%;
+			margin-bottom: 2%;
+			margin-top: 2%
 	}
 }
 
